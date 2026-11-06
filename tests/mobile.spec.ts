@@ -1,0 +1,7 @@
+import {test,expect} from '@playwright/test';
+test('mobile navigation, RTL/LTR layouts, catalog and gameplay fit the viewport',async({page},info)=>{
+ test.skip(info.project.name!=='mobile','Mobile project only');const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('/');await page.waitForSelector('body[data-app-ready=true]');await expect(page.locator('.hero h1')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'outputs/home-mobile.png',fullPage:true});
+ await page.getByRole('button',{name:'Menu',exact:true}).click();await expect(page.locator('.main-nav')).toBeVisible();await page.locator('.main-nav a[href="/morocco"]').click();await expect(page.locator('.morocco-page-hero')).toBeVisible();await page.locator('.game-card-link').first().click();await page.getByRole('button',{name:'بدا اللعب',exact:true}).click();await expect(page.getByTestId('answer-higher')).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'outputs/game-mobile.png',fullPage:true});
+ await page.getByRole('combobox',{name:'Language'}).selectOption('en');await expect(page.locator('html')).toHaveAttribute('dir','ltr');await expect(page.getByTestId('answer-higher')).toContainText('Higher');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
+});

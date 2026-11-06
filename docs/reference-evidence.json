@@ -1,0 +1,717 @@
+{
+  "catalog": {
+    "id": "ev_add9fd53b935a976f7a3718d664f9f735acce00a04be9f41c183956bee454dac",
+    "url": "https://moreorless.io/games",
+    "capturedAt": "2026-11-05",
+    "count": 112,
+    "categories": [
+      {
+        "name": "Trends",
+        "url": "https://moreorless.io/games"
+      },
+      {
+        "name": "New",
+        "url": "https://moreorless.io/games/new"
+      },
+      {
+        "name": "World",
+        "url": "https://moreorless.io/games/world"
+      },
+      {
+        "name": "People",
+        "url": "https://moreorless.io/games/people"
+      },
+      {
+        "name": "Youtube",
+        "url": "https://moreorless.io/games/youtube"
+      },
+      {
+        "name": "Movies",
+        "url": "https://moreorless.io/games/movies"
+      },
+      {
+        "name": "Spotify",
+        "url": "https://moreorless.io/games/spotify"
+      },
+      {
+        "name": "Sports",
+        "url": "https://moreorless.io/games/sports"
+      },
+      {
+        "name": "Football (Soccer)",
+        "url": "https://moreorless.io/games/football-soccer"
+      },
+      {
+        "name": "Country",
+        "url": "https://moreorless.io/games/country"
+      },
+      {
+        "name": "Tennis",
+        "url": "https://moreorless.io/games/tennis"
+      },
+      {
+        "name": "Cars",
+        "url": "https://moreorless.io/games/cars"
+      },
+      {
+        "name": "Heavier or Lighter",
+        "url": "https://moreorless.io/games/weights"
+      },
+      {
+        "name": "Eurovision",
+        "url": "https://moreorless.io/games/eurovision-song-contest"
+      },
+      {
+        "name": "Social Media",
+        "url": "https://moreorless.io/games/social-media"
+      },
+      {
+        "name": "Pokémon",
+        "url": "https://moreorless.io/games/pokemon"
+      },
+      {
+        "name": "Games",
+        "url": "https://moreorless.io/games/games"
+      },
+      {
+        "name": "Aviation",
+        "url": "https://moreorless.io/games/aviation"
+      },
+      {
+        "name": "Animals",
+        "url": "https://moreorless.io/games/animals"
+      },
+      {
+        "name": "Science",
+        "url": "https://moreorless.io/games/science"
+      },
+      {
+        "name": "Twitch",
+        "url": "https://moreorless.io/games/twitch"
+      },
+      {
+        "name": "Supermarkets",
+        "url": "https://moreorless.io/games/supermarkets"
+      },
+      {
+        "name": "Anime",
+        "url": "https://moreorless.io/games/anime"
+      }
+    ]
+  },
+  "landing": {
+    "id": "ev_df2c268ad2d0d6c9827778dd1dccfe1c67f03d4d5e20f3886c71894bd15642bd"
+  },
+  "gameplay": {
+    "id": "ev_468d83b2e344d8ce2e1a9aaa4f6317f45f0a4d2559c83631dd2e6b735c47542a",
+    "steps": [
+      {
+        "id": "scenario_start",
+        "status": "completed",
+        "text": "- document:\n  - link \"logo\":\n    - /url: /\n    - img \"logo\"\n  - link \"Games\":\n    - /url: /games\n  - img \"Country Size Game Thumbnail\"\n  - heading \"Country Size Higher or Lower\" [level=1]\n  - link \"World\":\n    - /url: /games/world\n  - link \"Country\":\n    - /url: /games/country\n  - link \"Trends\":\n    - /url: /games\n  - button \"Play\"\n  - paragraph: Guess which are the largest countries of our beautiful world.\n  - paragraph:\n    - text: Which Country is bigger? includes\n    - link \"150 items\":\n      - /url: /game/country-size/data\n    - text: .\n    - link \"Country facts game\":\n      - img\n      - text: Country facts game\n  - heading \"You might also like\" [level=2]\n  - list:\n    - listitem:\n      - link \"Country Neighbors thumbnail Country Neighbors\":\n        - /url: /game/country-neighbors\n        - img \"Country Neighbors thumbnail\"\n        - heading \"Country Neighbors\" [level=3]\n    - listitem:\n      - link \"Which Country is More Dangerous? thumbnail Which Country is More Dangerous?\":\n        - /url: /game/country-danger\n        - img \"Which Country is More Dangerous? thumbnail\"\n        - heading \"Which Country is More Dangerous?\" [level=3]\n    - listitem:\n      - link \"Population by Country thumbnail Population by Country\":\n        - /url: /game/population-by-country\n        - img \"Population by Country thumbnail\"\n        - heading \"Population by Country\" [level=3]\n    - listitem:\n      - link \"Country Population Density thumbnail Country Population Density\":\n        - /url: /game/country-population-density\n        - img \"Country Population Density thumbnail\"\n        - heading \"Country Population Density\" [level=3]\n    - listitem:\n      - link \"Tallest Buildings thumbnail Tallest Buildings\":\n        - /url: /game/tallest-buildings\n        - img \"Tallest Buildings thumbnail\"\n        - heading \"Tallest Buildings\" [level=3]\n    - listitem:\n      - insertion:\n        - text: Discover more\n        - link \"Country facts game\":\n          - img\n          - text: Country facts game\n        - link \"Online geography games\":\n          - img\n          - text: Online geography games\n        - link \"Trivia game subscription\":\n          - img\n          - text: Trivia game subscription\n        - link \"World geography quiz\":\n          - img\n          - text: World geography quiz\n        - link \"Geography study guides\":\n          - img\n          - text: Geography study guides\n        - link \"Interactive world map\":\n          - img\n          - text: Interactive world map\n        - link \"Geographic data visualization\":\n          - img\n          - text: Geographic data visualization\n        - link \"Buy Maps\":\n          - img\n          - text: Buy Maps\n  - heading \"Trophies\" [level=2]\n  - list:\n    - listitem:\n      - img \"Bronze Trophy\"\n      - text: Bronze 5 Points\n    - listitem:\n      - img \"Silver Trophy\"\n      - text: Silver 10 Points\n    - listitem:\n      - img \"Gold Trophy\"\n      - text: Gold 20 Points\n    - listitem:\n      - img \"Champion Trophy\"\n      - text: Champion 149 Points\n  - list:\n    - listitem:\n      - link \"Contact\":\n        - /url: /feedback\n    - listitem:\n      - link \"Privacy policy\":\n        - /url: /misc/privacy\n    - listitem:\n      - link \"Terms of use\":\n        - /url: /misc/tos\n  - alert"
+      },
+      {
+        "id": "play",
+        "status": "completed",
+        "text": "- document:\n  - insertion\n  - complementary:\n    - img \"Uzbekistan\"\n    - heading \"Uzbekistan\" [level=2]\n    - paragraph: is\n    - paragraph: 447,400 km²\n    - paragraph: in Total Area\n  - complementary:\n    - img \"Switzerland\"\n    - heading \"Switzerland\" [level=2]\n    - paragraph: is\n    - button \"Bigger w\"\n    - button \"Smaller s\"\n    - paragraph: in Total Area\n  - complementary:\n    - img \"Brazil\"\n    - heading \"Brazil\" [level=2]\n    - paragraph: is\n    - button \"Bigger w\"\n    - button \"Smaller s\"\n    - paragraph: in Total Area\n  - link \"Games\":\n    - /url: /games/world\n  - paragraph: vs\n  - paragraph: \"0\"\n  - paragraph: Highscore\n  - paragraph: \"0\"\n  - paragraph: Score\n  - alert"
+      },
+      {
+        "id": "guess",
+        "status": "completed",
+        "text": "- document:\n  - insertion:\n    - iframe\n  - complementary:\n    - img \"Uzbekistan\"\n    - heading \"Uzbekistan\" [level=2]\n    - paragraph: is\n    - paragraph: 447,400 km²\n    - paragraph: in Total Area\n  - complementary:\n    - img \"Switzerland\"\n    - heading \"Switzerland\" [level=2]\n    - paragraph: is\n    - paragraph: 0 km²\n    - paragraph: in Total Area\n  - complementary:\n    - img \"Brazil\"\n    - heading \"Brazil\" [level=2]\n    - paragraph: is\n    - button \"Bigger w\"\n    - button \"Smaller s\"\n    - paragraph: in Total Area\n  - link \"Games\":\n    - /url: /games/world\n  - paragraph: vs\n  - paragraph: \"0\"\n  - paragraph: Highscore\n  - paragraph: \"0\"\n  - paragraph: Score\n  - alert"
+      },
+      {
+        "id": "reveal",
+        "status": "completed",
+        "text": "- document:\n  - insertion:\n    - text: Discover more\n    - link \"Online quiz platform\":\n      - img\n      - text: Online quiz platform\n    - link \"Custom quiz creation\":\n      - img\n      - text: Custom quiz creation\n    - link \"Play game online\":\n      - img\n      - text: Play game online\n    - link \"Try New Games\":\n      - img\n      - text: Try New Games\n    - link \"Games\":\n      - img\n      - text: Games\n    - link \"Educational game downloads\":\n      - img\n      - text: Educational game downloads\n    - link \"World atlas book\":\n      - img\n      - text: World atlas book\n  - link \"Games\":\n    - /url: /games/world\n  - paragraph: \"Share Highscore:\"\n  - link \"discord logo\":\n    - /url: https://discord.gg/bHvUnKSga2\n    - img \"discord logo\"\n  - link \"reddit logo\":\n    - /url: https://www.reddit.com/r/moreorlessgame/\n    - img \"reddit logo\"\n  - insertion:\n    - iframe\n  - heading \"0\" [level=2]\n  - paragraph: You can do this better. We both know! Uzbekistan 447,400 km² | Switzerland 41,284 km² Country Size\n  - link \"Reddit logo Share on Reddit\":\n    - /url: https://www.reddit.com/r/moreorlessgame/\n    - img \"Reddit logo\"\n    - text: Share on Reddit\n  - button \"Try again r\"\n  - link \"Choose Gamemode\":\n    - /url: /games\n  - link \"Career Profile\":\n    - /url: /career-profile\n  - link \"Bug Report\":\n    - /url: /feedback\n  - alert"
+      }
+    ]
+  },
+  "localQA": {
+    "id": "ev_7c51f799a6de7e5d59ab648211a3cd2236f27e973ed896695e40805218dfa2e7",
+    "steps": [
+      {
+        "id": "scenario_start",
+        "status": "completed"
+      },
+      {
+        "id": "hydrate",
+        "status": "completed"
+      },
+      {
+        "id": "start-quiz",
+        "status": "completed"
+      },
+      {
+        "id": "answer-quiz",
+        "status": "completed"
+      },
+      {
+        "id": "explanation",
+        "status": "completed"
+      }
+    ]
+  },
+  "games": [
+    {
+      "slug": "horror-movies-box-office",
+      "url": "https://moreorless.io/game/horror-movies-box-office",
+      "title": "Halloween Special: Horror Box Office"
+    },
+    {
+      "slug": "country-size",
+      "url": "https://moreorless.io/game/country-size",
+      "title": "Country Size"
+    },
+    {
+      "slug": "population-by-country",
+      "url": "https://moreorless.io/game/population-by-country",
+      "title": "Population by Country"
+    },
+    {
+      "slug": "spotify-monthly-listeners",
+      "url": "https://moreorless.io/game/spotify-monthly-listeners",
+      "title": "Spotify Monthly Listeners"
+    },
+    {
+      "slug": "youtubers",
+      "url": "https://moreorless.io/game/youtubers",
+      "title": "YouTubers"
+    },
+    {
+      "slug": "imdb-ratings",
+      "url": "https://moreorless.io/game/imdb-ratings",
+      "title": "IMDb Ratings"
+    },
+    {
+      "slug": "rich-people",
+      "url": "https://moreorless.io/game/rich-people",
+      "title": "Net worth of people"
+    },
+    {
+      "slug": "weights",
+      "url": "https://moreorless.io/game/weights",
+      "title": "Heavier or Lighter: What Weighs More?"
+    },
+    {
+      "slug": "most-visited-websites",
+      "url": "https://moreorless.io/game/most-visited-websites",
+      "title": "Most Visited Websites"
+    },
+    {
+      "slug": "football-players-market-value-global",
+      "url": "https://moreorless.io/game/football-players-market-value-global",
+      "title": "Football Players Market Values"
+    },
+    {
+      "slug": "worldwide-gross-of-movies",
+      "url": "https://moreorless.io/game/worldwide-gross-of-movies",
+      "title": "Worldwide gross of movies"
+    },
+    {
+      "slug": "world-cup-goals",
+      "url": "https://moreorless.io/game/world-cup-goals",
+      "title": "World Cup: Goals"
+    },
+    {
+      "slug": "spotify-top-tracks",
+      "url": "https://moreorless.io/game/spotify-top-tracks",
+      "title": "Spotify Top Tracks"
+    },
+    {
+      "slug": "country-danger",
+      "url": "https://moreorless.io/game/country-danger",
+      "title": "Which Country is More Dangerous?"
+    },
+    {
+      "slug": "average-iq-by-country",
+      "url": "https://moreorless.io/game/average-iq-by-country",
+      "title": "Average IQ by Country"
+    },
+    {
+      "slug": "youtuber-view-count",
+      "url": "https://moreorless.io/game/youtuber-view-count",
+      "title": "YouTube Views"
+    },
+    {
+      "slug": "which-car-was-built-more",
+      "url": "https://moreorless.io/game/which-car-was-built-more",
+      "title": "Which Car Was Built More?"
+    },
+    {
+      "slug": "world-cup-2026-goals",
+      "url": "https://moreorless.io/game/world-cup-2026-goals",
+      "title": "World Cup 2026: Goals"
+    },
+    {
+      "slug": "salary-range",
+      "url": "https://moreorless.io/game/salary-range",
+      "title": "Salary Range"
+    },
+    {
+      "slug": "historical-happenings",
+      "url": "https://moreorless.io/game/historical-happenings",
+      "title": "Historical Happenings"
+    },
+    {
+      "slug": "animal-weights",
+      "url": "https://moreorless.io/game/animal-weights",
+      "title": "Heavier or Lighter: Which Animal Weighs More?"
+    },
+    {
+      "slug": "number-of-stores",
+      "url": "https://moreorless.io/game/number-of-stores",
+      "title": "Number of Stores"
+    },
+    {
+      "slug": "cost-of-movies",
+      "url": "https://moreorless.io/game/cost-of-movies",
+      "title": "Cost of movies"
+    },
+    {
+      "slug": "most-instagram-followers",
+      "url": "https://moreorless.io/game/most-instagram-followers",
+      "title": "Most Instagram Followers"
+    },
+    {
+      "slug": "atp-ranking-points",
+      "url": "https://moreorless.io/game/atp-ranking-points",
+      "title": "ATP Ranking Points"
+    },
+    {
+      "slug": "imdb-tv-series-shows-ratings",
+      "url": "https://moreorless.io/game/imdb-tv-series-shows-ratings",
+      "title": "IMDb TV Series & Shows Ratings"
+    },
+    {
+      "slug": "country-population-density",
+      "url": "https://moreorless.io/game/country-population-density",
+      "title": "Country Population Density"
+    },
+    {
+      "slug": "country-neighbors",
+      "url": "https://moreorless.io/game/country-neighbors",
+      "title": "Country Neighbors"
+    },
+    {
+      "slug": "spotify-artist-popularity",
+      "url": "https://moreorless.io/game/spotify-artist-popularity",
+      "title": "Spotify Artist Popularity"
+    },
+    {
+      "slug": "actor-worth-to-a-movie",
+      "url": "https://moreorless.io/game/actor-worth-to-a-movie",
+      "title": "Actor Worth to a Movie"
+    },
+    {
+      "slug": "sea-animals-diving-depth",
+      "url": "https://moreorless.io/game/sea-animals-diving-depth",
+      "title": "Sea Animals: Who Dives Deeper?"
+    },
+    {
+      "slug": "pokemon-base-stat-total",
+      "url": "https://moreorless.io/game/pokemon-base-stat-total",
+      "title": "Pokémon: Base Stat Total BST"
+    },
+    {
+      "slug": "twitch",
+      "url": "https://moreorless.io/game/twitch",
+      "title": "Twitch"
+    },
+    {
+      "slug": "wikipedia-article-views",
+      "url": "https://moreorless.io/game/wikipedia-article-views",
+      "title": "Wikipedia Article Views"
+    },
+    {
+      "slug": "tallest-buildings",
+      "url": "https://moreorless.io/game/tallest-buildings",
+      "title": "Tallest Buildings"
+    },
+    {
+      "slug": "biggest-airports",
+      "url": "https://moreorless.io/game/biggest-airports",
+      "title": "Biggest Airports"
+    },
+    {
+      "slug": "largest-cities-in-the-united-states",
+      "url": "https://moreorless.io/game/largest-cities-in-the-united-states",
+      "title": "Largest Cities in the United States"
+    },
+    {
+      "slug": "movie-running-time",
+      "url": "https://moreorless.io/game/movie-running-time",
+      "title": "Movie Running Time"
+    },
+    {
+      "slug": "tomatometer-score",
+      "url": "https://moreorless.io/game/tomatometer-score",
+      "title": "Tomatometer Score"
+    },
+    {
+      "slug": "food-drink-sugar",
+      "url": "https://moreorless.io/game/food-drink-sugar",
+      "title": "Food & Drink: Sugar"
+    },
+    {
+      "slug": "weights-small-items",
+      "url": "https://moreorless.io/game/weights-small-items",
+      "title": "Heavier or Lighter: What Weighs More? Weights between 1g - 300g."
+    },
+    {
+      "slug": "spotify-artists-follower-count",
+      "url": "https://moreorless.io/game/spotify-artists-follower-count",
+      "title": "Spotify Artists Follower Count"
+    },
+    {
+      "slug": "youtube-users-by-country",
+      "url": "https://moreorless.io/game/youtube-users-by-country",
+      "title": "YouTube Users by Country"
+    },
+    {
+      "slug": "element-boiling-points",
+      "url": "https://moreorless.io/game/element-boiling-points",
+      "title": "Elements: Boiling Point"
+    },
+    {
+      "slug": "mrbeast-youtube-video-views",
+      "url": "https://moreorless.io/game/mrbeast-youtube-video-views",
+      "title": "MrBeast Video Views"
+    },
+    {
+      "slug": "cost-of-movies-with-inflation",
+      "url": "https://moreorless.io/game/cost-of-movies-with-inflation",
+      "title": "Cost of movies (with Inflation)"
+    },
+    {
+      "slug": "csgo-weapon-prices",
+      "url": "https://moreorless.io/game/csgo-weapon-prices",
+      "title": "CS:GO Weapon Prices"
+    },
+    {
+      "slug": "lol-champion-skins",
+      "url": "https://moreorless.io/game/lol-champion-skins",
+      "title": "LoL Champion Skins"
+    },
+    {
+      "slug": "mountains-by-height",
+      "url": "https://moreorless.io/game/mountains-by-height",
+      "title": "Mountain Heights"
+    },
+    {
+      "slug": "volcanoes-per-country",
+      "url": "https://moreorless.io/game/volcanoes-per-country",
+      "title": "Volcanoes per Country"
+    },
+    {
+      "slug": "longest-rivers",
+      "url": "https://moreorless.io/game/longest-rivers",
+      "title": "Longest Rivers"
+    },
+    {
+      "slug": "worlds-islands-larger-or-smaller",
+      "url": "https://moreorless.io/game/worlds-islands-larger-or-smaller",
+      "title": "World's Islands: Larger or Smaller?"
+    },
+    {
+      "slug": "german-youtubers",
+      "url": "https://moreorless.io/game/german-youtubers",
+      "title": "German YouTubers"
+    },
+    {
+      "slug": "mercedes-power",
+      "url": "https://moreorless.io/game/mercedes-power",
+      "title": "Mercedes Horsepower"
+    },
+    {
+      "slug": "element-atomic-numbers",
+      "url": "https://moreorless.io/game/element-atomic-numbers",
+      "title": "Elements: Atomic Number"
+    },
+    {
+      "slug": "airplane-passengers",
+      "url": "https://moreorless.io/game/airplane-passengers",
+      "title": "Airplane Passenger Capacity"
+    },
+    {
+      "slug": "rainfall-in-europe",
+      "url": "https://moreorless.io/game/rainfall-in-europe",
+      "title": "Rainfall in Europe"
+    },
+    {
+      "slug": "element-atomic-masses",
+      "url": "https://moreorless.io/game/element-atomic-masses",
+      "title": "Elements: Atomic Mass"
+    },
+    {
+      "slug": "twitch-account-age",
+      "url": "https://moreorless.io/game/twitch-account-age",
+      "title": "Who Joined Twitch First?"
+    },
+    {
+      "slug": "german-cities-by-population",
+      "url": "https://moreorless.io/game/german-cities-by-population",
+      "title": "German Cities by Population"
+    },
+    {
+      "slug": "mercedes-price-inflation",
+      "url": "https://moreorless.io/game/mercedes-price-inflation",
+      "title": "Mercedes Car Price"
+    },
+    {
+      "slug": "lol-champion-win-rates",
+      "url": "https://moreorless.io/game/lol-champion-win-rates",
+      "title": "LoL Champion Win Rates"
+    },
+    {
+      "slug": "cs2-major-2025-kd",
+      "url": "https://moreorless.io/game/cs2-major-2025-kd",
+      "title": "CS2 Major 2025 Players K/D Ratio"
+    },
+    {
+      "slug": "fortnite-youtubers",
+      "url": "https://moreorless.io/game/fortnite-youtubers",
+      "title": "Fortnite YouTubers"
+    },
+    {
+      "slug": "design-history",
+      "url": "https://moreorless.io/game/design-history",
+      "title": "Design History"
+    },
+    {
+      "slug": "reddit-users-by-country",
+      "url": "https://moreorless.io/game/reddit-users-by-country",
+      "title": "Reddit Users by Country"
+    },
+    {
+      "slug": "tesla-sales",
+      "url": "https://moreorless.io/game/tesla-sales",
+      "title": "Tesla Sales by Country"
+    },
+    {
+      "slug": "esc-points",
+      "url": "https://moreorless.io/game/esc-points",
+      "title": "Eurovision Song Points"
+    },
+    {
+      "slug": "facebook-users-by-country",
+      "url": "https://moreorless.io/game/facebook-users-by-country",
+      "title": "Facebook Users by Country"
+    },
+    {
+      "slug": "esc-2025-points",
+      "url": "https://moreorless.io/game/esc-2025-points",
+      "title": "Eurovision 2025 Basel"
+    },
+    {
+      "slug": "christmas-spending",
+      "url": "https://moreorless.io/game/christmas-spending",
+      "title": "Christmas Spending"
+    },
+    {
+      "slug": "bitcoin-mining-by-country",
+      "url": "https://moreorless.io/game/bitcoin-mining-by-country",
+      "title": "Bitcoin Mining by Country"
+    },
+    {
+      "slug": "mountains-by-first-ascent",
+      "url": "https://moreorless.io/game/mountains-by-first-ascent",
+      "title": "Mountain First Ascent"
+    },
+    {
+      "slug": "animal-crossing-new-horizons-fishes-and-insects",
+      "url": "https://moreorless.io/game/animal-crossing-new-horizons-fishes-and-insects",
+      "title": "Animal Crossing: New Horizons Fishes and Insects"
+    },
+    {
+      "slug": "pewdiepie-video-views",
+      "url": "https://moreorless.io/game/pewdiepie-video-views",
+      "title": "PewDiePie Video Views"
+    },
+    {
+      "slug": "beauty-youtubers",
+      "url": "https://moreorless.io/game/beauty-youtubers",
+      "title": "Beauty YouTubers"
+    },
+    {
+      "slug": "esc-2024-points",
+      "url": "https://moreorless.io/game/esc-2024-points",
+      "title": "Eurovision 2024 Malmo"
+    },
+    {
+      "slug": "commit-clash",
+      "url": "https://moreorless.io/game/commit-clash",
+      "title": "Commit Clash"
+    },
+    {
+      "slug": "stoke-twins-youtube-video-views",
+      "url": "https://moreorless.io/game/stoke-twins-youtube-video-views",
+      "title": "Stoke Twins YouTube Video Views"
+    },
+    {
+      "slug": "league-of-legends-youtubers",
+      "url": "https://moreorless.io/game/league-of-legends-youtubers",
+      "title": "League of Legends YouTubers"
+    },
+    {
+      "slug": "esc-2023-points",
+      "url": "https://moreorless.io/game/esc-2023-points",
+      "title": "Eurovision 2023 United Kingdom"
+    },
+    {
+      "slug": "lol-champion-prices",
+      "url": "https://moreorless.io/game/lol-champion-prices",
+      "title": "LoL Champion Prices"
+    },
+    {
+      "slug": "pokemon-base-speed",
+      "url": "https://moreorless.io/game/pokemon-base-speed",
+      "title": "Pokémon: Base Speed"
+    },
+    {
+      "slug": "carryminati-youtube-video-views",
+      "url": "https://moreorless.io/game/carryminati-youtube-video-views",
+      "title": "CarryMinati YouTube Video Views"
+    },
+    {
+      "slug": "mercedes-units-produced",
+      "url": "https://moreorless.io/game/mercedes-units-produced",
+      "title": "Which Mercedes Was Built More?"
+    },
+    {
+      "slug": "german-league-of-legends-youtubers",
+      "url": "https://moreorless.io/game/german-league-of-legends-youtubers",
+      "title": "German League of Legends YouTubers"
+    },
+    {
+      "slug": "game-file-size",
+      "url": "https://moreorless.io/game/game-file-size",
+      "title": "Game File Size"
+    },
+    {
+      "slug": "spotify-song-length",
+      "url": "https://moreorless.io/game/spotify-song-length",
+      "title": "Spotify Song Length"
+    },
+    {
+      "slug": "country-highest-points",
+      "url": "https://moreorless.io/game/country-highest-points",
+      "title": "Country Highest Points"
+    },
+    {
+      "slug": "horror-movies-imdb",
+      "url": "https://moreorless.io/game/horror-movies-imdb",
+      "title": "Halloween Special: Horror Movie Ratings"
+    },
+    {
+      "slug": "google-searches",
+      "url": "https://moreorless.io/game/google-searches",
+      "title": "Google Searches"
+    },
+    {
+      "slug": "fc27-overall-rating",
+      "url": "https://moreorless.io/game/fc27-overall-rating",
+      "title": "EA FC 27: Overall Rating"
+    },
+    {
+      "slug": "football-players-market-value-premier-league",
+      "url": "https://moreorless.io/game/football-players-market-value-premier-league",
+      "title": "Premier League Player Market Values"
+    },
+    {
+      "slug": "india-population",
+      "url": "https://moreorless.io/game/india-population",
+      "title": "Indian Population"
+    },
+    {
+      "slug": "us-state-population",
+      "url": "https://moreorless.io/game/us-state-population",
+      "title": "U.S. State Population"
+    },
+    {
+      "slug": "nba-salaries",
+      "url": "https://moreorless.io/game/nba-salaries",
+      "title": "NBA Player Salaries"
+    },
+    {
+      "slug": "automaker-market-cap",
+      "url": "https://moreorless.io/game/automaker-market-cap",
+      "title": "Automaker Market Cap"
+    },
+    {
+      "slug": "german-state-population",
+      "url": "https://moreorless.io/game/german-state-population",
+      "title": "German State Population"
+    },
+    {
+      "slug": "distance-from-earth",
+      "url": "https://moreorless.io/game/distance-from-earth",
+      "title": "Distance from Earth"
+    },
+    {
+      "slug": "german-newspapers",
+      "url": "https://moreorless.io/game/german-newspapers",
+      "title": "German Newspapers"
+    },
+    {
+      "slug": "ship-gross-tonnage",
+      "url": "https://moreorless.io/game/ship-gross-tonnage",
+      "title": "Ship Gross Tonnage"
+    },
+    {
+      "slug": "football-players-market-value-bundesliga",
+      "url": "https://moreorless.io/game/football-players-market-value-bundesliga",
+      "title": "Bundesliga Player Values"
+    },
+    {
+      "slug": "supermarket-stores-usa",
+      "url": "https://moreorless.io/game/supermarket-stores-usa",
+      "title": "Supermarkets in the USA"
+    },
+    {
+      "slug": "supermarket-stores-uk",
+      "url": "https://moreorless.io/game/supermarket-stores-uk",
+      "title": "Supermarkets in the UK"
+    },
+    {
+      "slug": "supermarket-stores-germany",
+      "url": "https://moreorless.io/game/supermarket-stores-germany",
+      "title": "Supermarkets in Germany"
+    },
+    {
+      "slug": "supermarket-stores-brazil",
+      "url": "https://moreorless.io/game/supermarket-stores-brazil",
+      "title": "Supermarkets in Brazil"
+    },
+    {
+      "slug": "life-expectancy-by-country",
+      "url": "https://moreorless.io/game/life-expectancy-by-country",
+      "title": "Life Expectancy by Country"
+    },
+    {
+      "slug": "country-borders",
+      "url": "https://moreorless.io/game/country-borders",
+      "title": "Country Borders"
+    },
+    {
+      "slug": "company-market-cap",
+      "url": "https://moreorless.io/game/company-market-cap",
+      "title": "Company Market Cap"
+    },
+    {
+      "slug": "myanimelist-anime-scores",
+      "url": "https://moreorless.io/game/myanimelist-anime-scores",
+      "title": "MyAnimeList Anime Scores"
+    },
+    {
+      "slug": "weights-kids",
+      "url": "https://moreorless.io/game/weights-kids",
+      "title": "Heavier or Lighter for Kids"
+    },
+    {
+      "slug": "esc-2026-points",
+      "url": "https://moreorless.io/game/esc-2026-points",
+      "title": "Eurovision 2026 Vienna"
+    }
+  ]
+}

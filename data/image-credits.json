@@ -1,0 +1,29 @@
+[
+  {
+    "name": "morocco",
+    "title": "Aït_Benhaddou",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg/1280px-Ksar_A%C3%AFt_Benhaddou%2C_Marocco_%28%D8%A3%D9%8A%D8%AA_%D8%A8%D9%86_%D8%AD%D8%AF%D9%88%D8%8C_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%2C_%E2%B4%B0%E2%B5%A2%E2%B5%9C_%E2%B5%83%E2%B4%B0%E2%B4%B7%E2%B4%B7%E2%B5%93%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ksar_Aït_Benhaddou,_Marocco_(أيت_بن_حدو،_المغرب,_ⴰⵢⵜ_ⵃⴰⴷⴷⵓ).jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:PetarM\" title=\"User:PetarM\">Petar Milošević</a>",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  {
+    "name": "mountain",
+    "title": "Toubkal",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/My_Toubkal.jpg/1280px-My_Toubkal.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:My_Toubkal.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SimonKing74&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SimonKing74 (page does not exist)\">SimonKing74</a>",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  {
+    "name": "desert",
+    "title": "Erg_Chebbi",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Merzouga_Dunes_2011.jpg/1280px-Merzouga_Dunes_2011.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Merzouga_Dunes_2011.jpg",
+    "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Uspn\" title=\"User:Uspn\">Bjørn Christian Tørrissen</a>",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  }
+]

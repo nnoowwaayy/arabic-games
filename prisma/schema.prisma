@@ -1,0 +1,64 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+model User {
+  id        String @id
+  email     String @unique
+  name      String
+  password  String
+  salt      String
+  country   String @default("MA")
+  createdAt String @map("created_at")
+  sessions  Session[]
+  runs      Run[]
+  datasets  Dataset[]
+  @@map("users")
+}
+model Session {
+  id        String @id
+  userId    String @map("user_id")
+  expiresAt BigInt @map("expires_at")
+  user      User @relation(fields:[userId],references:[id])
+  @@map("sessions")
+}
+model Run {
+  id         String @id
+  gameId     String @map("game_id")
+  userId     String? @map("user_id")
+  guestId    String @map("guest_id")
+  deck       String
+  snapshot   String?
+  turn       Int @default(0)
+  score      Int @default(0)
+  lives      Int
+  difficulty String
+  status     String @default("playing")
+  daily      String?
+  createdAt  String @map("created_at")
+  finishedAt String? @map("finished_at")
+  user       User? @relation(fields:[userId],references:[id])
+  @@index([gameId,status,score],map:"runs_leaderboard")
+  @@index([userId],map:"runs_user")
+  @@unique([guestId,daily],map:"runs_guest_daily")
+  @@unique([userId,daily],map:"runs_user_daily")
+  @@map("runs")
+}
+model AuthAttempt {
+  key     String @id
+  count   Int
+  resetAt BigInt @map("reset_at")
+  @@map("auth_attempts")
+}
+model Dataset {
+  gameId    String @id @map("game_id")
+  data      String
+  active    Int @default(1)
+  updatedAt String @map("updated_at")
+  updatedBy String? @map("updated_by")
+  user      User? @relation(fields:[updatedBy],references:[id])
+  @@map("datasets")
+}

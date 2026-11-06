@@ -1,0 +1,108 @@
+[
+  {
+    "index": 0,
+    "title": "The_Shawshank_Redemption",
+    "runtime": "142 minutes<!--Theatrical runtime: 142:22-->",
+    "source": "https://en.wikipedia.org/wiki/The_Shawshank_Redemption",
+    "verifiedAt": "2026-11-06T00:39:52.430Z"
+  },
+  {
+    "index": 1,
+    "title": "The_Godfather",
+    "runtime": "175 minutes<!--Theatrical runtime: 175:03-->",
+    "source": "https://en.wikipedia.org/wiki/The_Godfather",
+    "verifiedAt": "2026-11-06T00:39:53.099Z"
+  },
+  {
+    "index": 2,
+    "title": "The_Dark_Knight",
+    "runtime": "152 minutes",
+    "source": "https://en.wikipedia.org/wiki/The_Dark_Knight",
+    "verifiedAt": "2026-11-06T00:39:53.924Z"
+  },
+  {
+    "index": 3,
+    "title": "Inception",
+    "runtime": "148 minutes",
+    "source": "https://en.wikipedia.org/wiki/Inception",
+    "verifiedAt": "2026-11-06T00:39:56.222Z"
+  },
+  {
+    "index": 4,
+    "title": "Interstellar",
+    "source": "https://en.wikipedia.org/wiki/Interstellar",
+    "verifiedAt": "2026-11-06T00:39:56.584Z"
+  },
+  {
+    "index": 5,
+    "title": "Titanic_(1997_film)",
+    "runtime": "195 minutes<!--Theatrical runtime: 194:36-->",
+    "source": "https://en.wikipedia.org/wiki/Titanic_(1997_film)",
+    "verifiedAt": "2026-11-06T00:39:57.376Z"
+  },
+  {
+    "index": 6,
+    "title": "Avatar_(2009_film)",
+    "runtime": "162 minutes<!-- Theatrical runtime: 161:35 -->",
+    "source": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+    "verifiedAt": "2026-11-06T00:39:58.059Z"
+  },
+  {
+    "index": 7,
+    "title": "Parasite_(2019_film)",
+    "runtime": "132 minutes",
+    "source": "https://en.wikipedia.org/wiki/Parasite_(2019_film)",
+    "verifiedAt": "2026-11-06T00:39:58.553Z"
+  },
+  {
+    "index": 8,
+    "title": "The_Lion_King_(1994_film)",
+    "source": "https://en.wikipedia.org/wiki/The_Lion_King_(1994_film)",
+    "verifiedAt": "2026-11-06T00:39:58.963Z"
+  },
+  {
+    "index": 9,
+    "title": "Spirited_Away",
+    "runtime": "124 minutes<!--Theatrical runtime: 124:33-->",
+    "source": "https://en.wikipedia.org/wiki/Spirited_Away",
+    "verifiedAt": "2026-11-06T00:39:59.459Z"
+  },
+  {
+    "index": 10,
+    "title": "Whiplash_(2014_film)",
+    "runtime": "106 minutes<!--Theatrical runtime: 106:27-->",
+    "source": "https://en.wikipedia.org/wiki/Whiplash_(2014_film)",
+    "verifiedAt": "2026-11-06T00:40:00.080Z"
+  },
+  {
+    "index": 11,
+    "title": "Gladiator_(2000_film)",
+    "runtime": "155 minutes",
+    "source": "https://en.wikipedia.org/wiki/Gladiator_(2000_film)",
+    "verifiedAt": "2026-11-06T00:40:00.662Z"
+  },
+  {
+    "index": 12,
+    "title": "Oppenheimer_(film)",
+    "runtime": "180 minutes<!--180:09; only IMAX version is 180:39-->",
+    "source": "https://en.wikipedia.org/wiki/Oppenheimer_(film)",
+    "verifiedAt": "2026-11-06T00:40:01.457Z"
+  },
+  {
+    "index": 13,
+    "title": "The_Matrix",
+    "runtime": "136 minutes<!--Theatrical runtime: 136:00 + 0:10 (136:10)-->",
+    "source": "https://en.wikipedia.org/wiki/The_Matrix",
+    "verifiedAt": "2026-11-06T00:40:04.652Z"
+  },
+  {
+    "index": 14,
+    "title": "Jaws_(film)",
+    "error": "HTTP 429"
+  },
+  {
+    "index": 15,
+    "title": "Toy_Story",
+    "error": "HTTP 429"
+  }
+]

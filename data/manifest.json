@@ -1,0 +1,31 @@
+[
+  {
+    "name": "countries",
+    "url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
+    "fetchedAt": "2026-11-06T00:01:00.290Z",
+    "sha256": "0d92fb23b43ae080bd439f5dc5d61a8845395fdd0af1479b433c59fe079bd6fd"
+  },
+  {
+    "name": "population",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?date=2023&format=json&per_page=400",
+    "fetchedAt": "2026-11-06T00:01:00.290Z",
+    "sha256": "27398dc2f2947c58ab01bcc7e81941911d14b4b104da2c233b8d46b3e4a4f74e"
+  },
+  {
+    "name": "density",
+    "url": "https://api.worldbank.org/v2/country/all/indicator/EN.POP.DNST?date=2023&format=json&per_page=400",
+    "fetchedAt": "2026-11-06T00:01:00.290Z",
+    "sha256": "694e9fcf21089b4c475fab6f48b8842bcb9f27133a9e91119e12812a4243aeda"
+  },
+  {
+    "name": "elements",
+    "url": "https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/PeriodicTableJSON.json",
+    "fetchedAt": "2026-11-06T00:01:00.290Z",
+    "sha256": "05e478cb1192c5bbfad8d9600fd3b4c7902c0966ad5d0408bfcc4d5092424c0d"
+  },
+  {
+    "name": "pokemon",
+    "url": "https://pokeapi.co/api/v2/pokemon/{1…40}",
+    "fetchedAt": "2026-11-06T00:01:00.290Z"
+  }
+]
